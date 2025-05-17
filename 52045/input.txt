@@ -1,0 +1,4 @@
+regla bloqueoNocturno {
+  cuando intentoAccesoFueraHorario
+  entonces agregarUsuarioAListaNegra
+}
